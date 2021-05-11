@@ -1,0 +1,38 @@
+.outerContainer{
+    background-color:#216ade;
+    height: 100vh;
+}
+
+.messageScreen{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+.messageDisplay{
+    background-color: #216ade;
+    margin: 7px;
+    padding: 1px;
+    color: white;
+    border-radius: 18px;
+    height: auto;
+    padding-top: 1px;
+    width: 236px;
+    padding-left: 11px;
+}
+.inputMessage{
+    height: 30px;
+    width: 234px;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+    

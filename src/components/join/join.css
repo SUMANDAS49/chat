@@ -1,0 +1,112 @@
+.joinOuterContainer {
+  background-color: #216ade;
+  height: 100vh;
+  width: 100vw;
+}
+.joinInnerContainer {
+  width: 100vw;
+  height: 400px;
+  margin: auto;
+  background-color: white;
+}
+.joinOuterContainer .joinInnerContainer .joinImg {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: 127px;
+}
+
+.joinOuterContainer .joinInnerContainer .heading {
+  background-color: white;
+  color: #216ade;
+  text-align: center;
+  padding: 20px;
+}
+.joinInput1 {
+  display: block;
+  margin: auto;
+  height: 30px;
+  margin-top: 10px;
+  width: 80vw;
+  border-radius: 10px;
+}
+.joinInput2 {
+  height: 30px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 80vw;
+  border-radius: 10px;
+}
+.button {
+  display: block;
+  margin: auto;
+  height: 35px;
+  width: 89px;
+  margin-top: 31px;
+  font-size: 24px;
+  text-decoration: none;
+  background-color: #216ade;
+  border-radius: 6px;
+  color: white;
+}
+
+@media (min-width: 400px) {
+  .joinOuterContainer {
+    background-color: #216ade;
+    height: 100vh;
+    width: 100vw;
+  }
+  .joinInnerContainer {
+    width: 100vw;
+    height: 609px;
+    margin: auto;
+    background-color: white;
+  }
+  .joinOuterContainer .joinInnerContainer .joinImg {
+    height: 192px;
+    width: 198px;
+    position: relative;
+    left: 523px;
+  }
+
+  .joinOuterContainer .joinInnerContainer .heading {
+    background-color: white;
+    color: #216ade;
+    text-align: center;
+    padding: 20px;
+    font-size: 54px;
+  }
+  .joinInput1 {
+    display: block;
+    margin: auto;
+    height: 42px;
+    margin-top: 10px;
+    width: 37vw;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .joinInput2 {
+    display: block;
+    margin: auto;
+    height: 42px;
+    margin-top: 10px;
+    width: 37vw;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .button {
+    display: block;
+    margin: auto;
+    height: 35px;
+    width: 89px;
+    margin-top: 31px;
+    font-size: 24px;
+    text-decoration: none;
+    background-color: #216ade;
+    border-radius: 6px;
+    color: white;
+  }
+}
